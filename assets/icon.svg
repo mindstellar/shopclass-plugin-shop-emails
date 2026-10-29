@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Shop emails">
+  <rect width="128" height="128" rx="24" fill="#2a4a5a"/>
+  <rect x="26" y="38" width="76" height="54" rx="6" fill="#e3eef6"/>
+  <path d="M28 42l36 28 36-28" fill="none" stroke="#2a4a5a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="96" cy="38" r="12" fill="#f2b84b"/>
+</svg>

@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shop emails 0.1.1\n"
+"Report-Msgid-Bugs-To: https://github.com/mindstellar/shopclass-plugin-shop-emails/issues\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: \n"
+
+#: admin/subscribers.php:53
+msgid "Address starts with"
+msgstr ""
+
+#: admin/subscribers.php:82
+msgid "Addresses appear here when visitors use the newsletter form on your home page."
+msgstr ""
+
+#: src/Admin/Screens.php:47
+msgid "Addresses that signed up through the newsletter form. A pending address has not clicked its confirm link yet and is removed after 3 days. The export holds confirmed addresses only, ready for a mailing tool."
+msgstr ""
+
+#: src/Widget.php:33
+msgid "An e-mail field and a button that add the visitor to the newsletter list."
+msgstr ""
+
+#: src/Mails.php:68
+msgid "And %d more in your cart."
+msgstr ""
+
+#: settings.php:48
+msgid "Ask new subscribers to confirm by e-mail"
+msgstr ""
+
+#: settings.php:149
+msgid "At most this many reminders are queued each hour, so a busy shop does not flood its mail server."
+msgstr ""
+
+#: views/confirm.php:22
+#: views/unsubscribe.php:28
+msgid "Back to the shop"
+msgstr ""
+
+#: src/Widget.php:37
+msgid "Button text"
+msgstr ""
+
+#: settings.php:135
+msgid "Cart link"
+msgstr ""
+
+#: src/Reminders.php:82
+msgid "Cart reminder e-mail"
+msgstr ""
+
+#: src/Mails.php:35
+msgid "Changed your mind later? This link takes you off the list:"
+msgstr ""
+
+#: src/Widget.php:78
+msgid "Check your e-mail to confirm."
+msgstr ""
+
+#: settings.php:55
+msgid "Confirmation subject"
+msgstr ""
+
+#: settings.php:65
+msgid "Confirmation text"
+msgstr ""
+
+#: admin/subscribers.php:95
+msgid "Confirmed"
+msgstr ""
+
+#: settings.php:105
+msgid "Counted after the wait above. Stops a first run from mailing every cart left months ago."
+msgstr ""
+
+#: admin/subscribers.php:91
+#: admin/subscribers.php:123
+msgid "Delete"
+msgstr ""
+
+#: admin/subscribers.php:121
+msgid "Delete this address from the list?"
+msgstr ""
+
+#: admin/subscribers.php:71
+#: admin/subscribers.php:87
+msgid "E-mail"
+msgstr ""
+
+#: src/Widget.php:36
+msgid "E-mail field label"
+msgstr ""
+
+#: admin/subscribers.php:63
+msgid "Export CSV"
+msgstr ""
+
+#: admin/subscribers.php:110
+msgid "First page"
+msgstr ""
+
+#: admin/subscribers.php:74
+#: admin/subscribers.php:101
+msgid "From"
+msgstr ""
+
+#: src/Mails.php:73
+msgid "Go to your cart"
+msgstr ""
+
+#: src/Widget.php:35
+msgid "Heading"
+msgstr ""
+
+#: src/Plugin.php:49
+msgid "Hi {USER_NAME},"
+msgstr ""
+
+#: settings.php:93
+msgid "How long a cart sits unchanged before the reminder goes."
+msgstr ""
+
+#: admin/subscribers.php:122
+msgid "It is removed at once and gets no more newsletters from an export you make after this."
+msgstr ""
+
+#: src/Web.php:107
+msgid "Leave the newsletter?"
+msgstr ""
+
+#: settings.php:75
+msgid "More tries than this from one address in an hour are refused with \"Please wait\"."
+msgstr ""
+
+#: src/Widget.php:35
+#: src/Widget.php:56
+msgid "Newsletter"
+msgstr ""
+
+#: src/Widget.php:32
+msgid "Newsletter sign-up"
+msgstr ""
+
+#: admin/subscribers.php:37
+#: src/Admin/Screens.php:38
+#: src/Admin/Screens.php:45
+msgid "Newsletter subscribers"
+msgstr ""
+
+#: admin/subscribers.php:113
+msgid "Next page"
+msgstr ""
+
+#: admin/subscribers.php:81
+msgid "No address starts with that"
+msgstr ""
+
+#: admin/subscribers.php:81
+msgid "No one has signed up yet"
+msgstr ""
+
+#: settings.php:86
+msgid "One e-mail per shopper at most every 30 days. Carts of shoppers who are not signed in stay in their browser and get none."
+msgstr ""
+
+#: admin/subscribers.php:20
+#: src/Admin/Screens.php:72
+msgid "Only an administrator can manage the newsletter list."
+msgstr ""
+
+#: admin/subscribers.php:97
+msgid "Pending"
+msgstr ""
+
+#: settings.php:127
+msgid "Plain text above the list of items and the link to the cart."
+msgstr ""
+
+#: settings.php:66
+msgid "Plain text. The confirm button and an unsubscribe link are added below it."
+msgstr ""
+
+#: src/Plugin.php:43
+msgid "Please confirm this is your e-mail. If you did not ask for this, ignore this mail and you will hear nothing more."
+msgstr ""
+
+#: src/Plugin.php:41
+msgid "Please confirm your e-mail for {WEB_TITLE}"
+msgstr ""
+
+#: src/Widget.php:81
+msgid "Please enter a valid e-mail address."
+msgstr ""
+
+#: src/Widget.php:82
+msgid "Please wait a while and try again."
+msgstr ""
+
+#: src/Mails.php:63
+msgid "Qty %d"
+msgstr ""
+
+#: settings.php:49
+msgid "Recommended. An address joins the list only after its owner clicks the link in the mail. Unconfirmed sign-ups are removed after 3 days."
+msgstr ""
+
+#: settings.php:85
+msgid "Remind signed-in shoppers about a cart they left"
+msgstr ""
+
+#: settings.php:116
+msgid "Reminder subject"
+msgstr ""
+
+#: settings.php:126
+msgid "Reminder text"
+msgstr ""
+
+#: settings.php:148
+msgid "Reminders per hourly run"
+msgstr ""
+
+#: settings.php:92
+msgid "Send after (hours)"
+msgstr ""
+
+#: src/Admin/Screens.php:50
+msgid "Settings"
+msgstr ""
+
+#: settings.php:40
+msgid "Shop emails"
+msgstr ""
+
+#: index.php:62
+msgid "Shop emails needs Shopclass 7.1 or later and is switched off. Update Shopclass to use it."
+msgstr ""
+
+#: src/Widget.php:37
+#: src/Widget.php:58
+msgid "Sign up"
+msgstr ""
+
+#: settings.php:74
+msgid "Sign-ups per visitor per hour"
+msgstr ""
+
+#: admin/subscribers.php:73
+#: admin/subscribers.php:99
+msgid "Signed up"
+msgstr ""
+
+#: settings.php:104
+msgid "Skip carts older than (days)"
+msgstr ""
+
+#: admin/subscribers.php:72
+#: admin/subscribers.php:93
+msgid "Status"
+msgstr ""
+
+#: views/confirm.php:18
+msgid "Thank you. Your e-mail is on our list, and we will write when there is news."
+msgstr ""
+
+#: src/Plugin.php:42
+msgid "Thanks for signing up to news from {WEB_TITLE}."
+msgstr ""
+
+#: src/Admin/Screens.php:86
+msgid "That address is not on the list."
+msgstr ""
+
+#: src/Admin/Screens.php:84
+msgid "The address is deleted from the list."
+msgstr ""
+
+#: views/confirm.php:20
+msgid "The link has expired or is not complete. Sign up again and use the newest mail we send."
+msgstr ""
+
+#: settings.php:43
+msgid "The newsletter sign-up list and, on a shop, the reminder for a cart left behind. See the list under Users, Newsletter subscribers."
+msgstr ""
+
+#: src/Widget.php:80
+msgid "This address is already signed up."
+msgstr ""
+
+#: src/Web.php:88
+#: src/Web.php:109
+msgid "This link does not work"
+msgstr ""
+
+#: views/unsubscribe.php:26
+msgid "This link is not complete, or the e-mail is no longer on the list."
+msgstr ""
+
+#: views/unsubscribe.php:21
+msgid "Unsubscribe"
+msgstr ""
+
+#: settings.php:24
+msgid "Use a whole number from %1$d to %2$d."
+msgstr ""
+
+#: settings.php:142
+msgid "Use an address on this site."
+msgstr ""
+
+#: src/Reminders.php:83
+msgid "User #%d"
+msgstr ""
+
+#: src/Mails.php:74
+msgid "We send this reminder once. Prices and stock are checked again when you order."
+msgstr ""
+
+#: settings.php:136
+msgid "Where the reminder's button goes, on this site. Leave empty for the home page with #cart, which opens the cart in the Aisle theme."
+msgstr ""
+
+#: src/Mails.php:34
+msgid "Yes, confirm my e-mail"
+msgstr ""
+
+#: src/Web.php:88
+msgid "You are signed up"
+msgstr ""
+
+#: src/Widget.php:79
+msgid "You are signed up."
+msgstr ""
+
+#: src/Web.php:108
+msgid "You are unsubscribed"
+msgstr ""
+
+#: settings.php:127
+msgid "You can use {USER_NAME} and {WEB_TITLE}."
+msgstr ""
+
+#: settings.php:37
+msgid "You can use {WEB_TITLE} for the site name."
+msgstr ""
+
+#: src/Plugin.php:48
+msgid "You left something in your cart"
+msgstr ""
+
+#: src/Plugin.php:50
+msgid "You left these in your cart at {WEB_TITLE}. They are still there when you are ready."
+msgstr ""
+
+#: views/unsubscribe.php:18
+msgid "You will get no more newsletters from us. Order e-mails still come."
+msgstr ""
+
+#: src/Widget.php:36
+#: src/Widget.php:57
+msgid "Your e-mail"
+msgstr ""
+
+#: views/unsubscribe.php:24
+msgid "Your e-mail is off the list and we have deleted it."
+msgstr ""
+
+#: admin/subscribers.php:40
+msgid "confirmed"
+msgstr ""
+
+#: src/Mails.php:36
+msgid "unsubscribe"
+msgstr ""
+
+#: admin/subscribers.php:42
+msgid "waiting for their confirm link"
+msgstr ""
