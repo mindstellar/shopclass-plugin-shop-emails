@@ -104,7 +104,7 @@ harness_section('the job');
 $mails = array();
 pin('the job sends the reminder', true, Reminders::send($sue, time()));
 $body = $mails[0]['body'] ?? '';
-check('naming the listing, the quantity and the line price', strpos($body, 'Assam tea') !== false && strpos($body, 'Qty 2') !== false && strpos($body, '25.00 USD') !== false, $body);
+check('naming the listing, the quantity and the line price', strpos($body, 'Assam tea') !== false && strpos($body, 'Qty 2') !== false && strpos($body, '25 US Dollar') !== false, $body);
 pin('to the shopper', 'sue@example.test', $mails[0]['to'] ?? null);
 pin('the mark is in t_key_value for 30 days', 1, (int) $col("SELECT COUNT(*) FROM {$p}t_key_value WHERE s_group = 'cart_reminder' AND s_key = '{$sue}' AND dt_expires > UTC_TIMESTAMP() + INTERVAL 29 DAY"));
 pin('the next run skips the reminded cart', 0, Reminders::scan(time()));
