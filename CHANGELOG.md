@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+### Changed
+- Reminder mails show prices as orders do, such as €4.90, through `CurrencyService::money()`.
+
 ## 0.1.1
 
 ### Changed

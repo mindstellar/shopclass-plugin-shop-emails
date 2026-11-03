@@ -17,7 +17,7 @@ use Closure;
 use mindstellar\billing\CartPricer;
 use mindstellar\billing\CartStore;
 use mindstellar\billing\event\OrderPlaced;
-use mindstellar\currency\Money;
+use mindstellar\currency\CurrencyService;
 use mindstellar\job\Job;
 use mindstellar\listing\VariantStore;
 use mindstellar\user\UserStore;
@@ -299,7 +299,7 @@ final class Reminders
                 'title'   => (string) $listing['title'],
                 'options' => implode(', ', $parts),
                 'qty'     => $qty,
-                'price'   => Money::format((int) $unit * $qty, strtoupper((string) ($listing['fk_c_currency_code'] ?? osc_currency()))),
+                'price'   => CurrencyService::make()->money((int) $unit * $qty, strtoupper((string) ($listing['fk_c_currency_code'] ?? osc_currency()))),
             );
         }
 

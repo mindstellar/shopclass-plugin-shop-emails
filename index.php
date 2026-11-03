@@ -3,7 +3,7 @@
 Plugin Name: Shop emails
 Plugin URI: https://github.com/mindstellar/shopclass-plugin-shop-emails
 Description: A newsletter sign-up list with double opt-in and CSV export, and one reminder e-mail for a signed-in shopper who leaves a cart.
-Version: 0.1.1
+Version: 0.1.2
 Author: Navjot Tomer (Mindstellar)
 Author URI: https://mindstellar.com
 Short Name: shop-emails
