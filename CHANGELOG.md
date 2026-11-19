@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+### Changed
+- Admin pages are under Plugins → Shop emails.
+
 ## 0.1.2
 
 ### Changed
