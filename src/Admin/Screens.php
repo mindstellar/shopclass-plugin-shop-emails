@@ -32,10 +32,10 @@ final class Screens
     /** fn(string $body, array $headers): void -- replaces sending the export and stopping, in tests. */
     public static ?Closure $output = null;
 
-    /** The entry under Users: the admin_menu_init hook. */
+    /** The entry in the plugin's Plugins group: the admin_menu_init hook. */
     public static function menu(): void
     {
-        osc_add_admin_submenu_page('users', __('Newsletter subscribers', 'shop-emails'), osc_route_admin_url(self::ROUTE), self::ROUTE, 'administrator');
+        osc_add_admin_submenu_page('plugins', __('Newsletter subscribers', 'shop-emails'), osc_route_admin_url(self::ROUTE), self::ROUTE, 'administrator');
     }
 
     /** The header core draws around the screen: the init_admin hook. */

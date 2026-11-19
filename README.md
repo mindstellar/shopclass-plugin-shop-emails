@@ -22,7 +22,7 @@ The newsletter works on classifieds and shop sites. The cart reminder is for sho
 
 ## Set up
 
-1. Open **Settings → Email → Shop emails**.
+1. Open **Plugins → Shop emails → Settings**.
 2. Set the newsletter options:
 
    | Setting | Default |
@@ -43,7 +43,7 @@ The newsletter works on classifieds and shop sites. The cart reminder is for sho
    | Reminders per hourly run | 50 |
 
 4. Show the form: open **Appearance → Manage widgets** and add **Newsletter sign-up** to a widget area. Set its heading, field label and button text. A theme with its own form can post to the plugin instead (see For developers).
-5. See who signed up under **Users → Newsletter subscribers**.
+5. See who signed up under **Plugins → Shop emails → Newsletter subscribers**.
 
 Texts are plain. A blank line starts a new paragraph. `{WEB_TITLE}` is the site name. `{USER_NAME}` is the shopper's name in the reminder.
 
@@ -75,7 +75,7 @@ Cart reminder (shop sites only):
 - Guests' carts live in the browser and get no reminder.
 - Everything is in core's `t_key_value` table, groups `newsletter`, `newsletter_token`, `cart_reminder` and `shop_emails`. No table of its own. Settings are preferences in the `shop-emails` section.
 - The visitor's IP is never stored. The hourly limit uses core's rate counter, which keeps a hash.
-- Personal data: core's data export includes the account's newsletter row and reminder mark. Deleting an account deletes both. Delete one address under **Users → Newsletter subscribers**, or the person can use the unsubscribe link.
+- Personal data: core's data export includes the account's newsletter row and reminder mark. Deleting an account deletes both. Delete one address under **Plugins → Shop emails → Newsletter subscribers**, or the person can use the unsubscribe link.
 - Uninstalling deletes the list, links, marks and settings. Export the list first.
 - On an older Shopclass the plugin loads, does nothing and says so in the admin.
 

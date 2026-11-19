@@ -38,9 +38,8 @@ $seWords = __('You can use {WEB_TITLE} for the site name.', 'shop-emails');
 
 return array(
     'title'  => __('Shop emails', 'shop-emails'),
-    'menu'   => 'settings',
-    'group'  => 'email',
-    'intro'  => __('The newsletter sign-up list and, on a shop, the reminder for a cart left behind. See the list under Users, Newsletter subscribers.', 'shop-emails'),
+    'menu'   => 'plugins',
+    'intro'  => __('The newsletter sign-up list and, on a shop, the reminder for a cart left behind. See the list under Plugins → Shop emails → Newsletter subscribers.', 'shop-emails'),
     'fields' => $seFields(array(
         array(
             'type'    => 'checkbox',
